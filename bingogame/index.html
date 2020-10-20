@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript Object Practice</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class = "header-container">
+      <h1>L e t ' s   B I N G O !</h1>
+    </div>
+  </header>
+
+  <script src="js/main.js"></script>
+  
+  <script>
+    {
+      function GetRandomNumber() {
+      var randnum = Math.floor(Math.random()*80);
+      document.getElementById("sample").innerHTML = randnum;
+      } 
+    }
+  </script>
+  <div class="btn">
+    <p>
+      <input type="button" value="BINGO NO!" id="bingo" onclick="GetRandomNumber();">
+    </p>
+  </div>
+  <div class="card">
+    <p><span id="sample"></span></p>
+  </div>
+
+  <footer>
+    <div class = "footer-container">
+      <p>&copy;SHIMA</p>
+    </div>
+  </footer>
+</body>
+</html>

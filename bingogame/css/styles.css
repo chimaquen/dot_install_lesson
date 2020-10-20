@@ -1,0 +1,79 @@
+body {
+  width: 100%;
+  margin: 0;
+  background: #ffffff;
+}
+
+header {
+  /* margin: 0 auto; */
+  margin-top: 0;
+}
+
+.header-container {
+  background-color: blue;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  display: block;
+}
+
+.btn {
+  margin: auto;
+}
+
+#bingo {
+  width: 150px;
+  font-size: 20px;
+  height: 50px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+#bingo:hover {
+  box-shadow: 5px;
+}
+
+p {
+  color: #ffffff;
+  text-align: center;
+  display: block;
+}
+
+.card {
+  margin: 50px auto;
+  text-align: center;
+  vertical-align: center;
+  background-color: white;
+  width: 200px;
+  height: 150px;
+}
+
+#sample {
+  font-size: 90px;
+  color: purple;
+  font-weight: bold;
+  margin: auto;
+}
+
+footer {
+  margin: 0;
+  background-color: purple;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
